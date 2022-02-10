@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">practica2</string>
+    <string name="txt_txtv1">Esta es mi segunda practica</string>
+    <string name="txt_edtx1">Usuario:</string>
+    <string name="txt_btn1">Iniciar Sesion</string>
+    <string name="txt_chk1">Futbol</string>
+    <string name="txt_chk2">Tenis</string>
+    <string name="txt_chk3">Beisbol</string>
+    <string name="txt_rd1">Rojo</string>
+    <string name="txt_rd2">Azul</string>
+    <string name="txt_rd3">Verde</string>
+</resources>

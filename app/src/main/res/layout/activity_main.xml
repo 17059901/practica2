@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_txtv1"
+        android:background="#FFC107"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black" />
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:hint="@string/txt_edtx1"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/edit1"
+        android:text="@string/txt_btn1"
+        android:textColor="#121111"
+        android:backgroundTint="#EDA8C0"/>
+
+    <CheckBox
+        android:id="@+id/ckck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:minHeight="48dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:text="@string/txt_chk1" />
+
+    <CheckBox
+        android:id="@+id/ckck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:minHeight="48dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:text="@string/txt_chk2"
+        android:layout_toRightOf="@id/ckck1" />
+
+    <CheckBox
+        android:id="@+id/ckck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:minHeight="48dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:text="@string/txt_chk3"
+        android:layout_toRightOf="@id/ckck2"/>
+
+    <RadioGroup
+        android:id="@+id/radgr1"
+        android:layout_below="@id/ckck1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_rd1"
+            android:layout_marginRight="40dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_rd2"
+            android:layout_marginRight="40dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_rd3"
+            android:layout_marginRight="40dp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:src="@drawable/android"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/radgr1"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
